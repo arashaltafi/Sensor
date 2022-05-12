@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".lock1.Lock1Activity">
+
+<!--    <com.andrognito.patternlockview.PatternLockView-->
+<!--        android:id="@+id/pattern_lock_view_1"-->
+<!--        android:layout_width="300dp"-->
+<!--        android:layout_height="300dp" />-->
+
+    <com.andrognito.patternlockview.PatternLockView
+        android:id="@+id/pattern_lock_view_1"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        app:aspectRatio="square"
+        app:aspectRatioEnabled="true"
+        app:dotAnimationDuration="150"
+        app:dotCount="3"/>
+
+<!--    app:dotCount="3"                                         Change the no.of dots in a row (or column)-->
+<!--    app:dotNormalSize="12dp"                                 Change the size of the dots in normal state-->
+<!--    app:dotSelectedSize="24dp"                               Change the size of the dots in selected state-->
+<!--    app:pathWidth="4dp"                                      Change the width of the path-->
+<!--    app:aspectRatioEnabled="true"                            Set if the view should respect custom aspect ratio-->
+<!--    app:aspectRatio="square"                                 Set between "square", "width_bias", "height_bias"-->
+<!--    app:normalStateColor="@color/white"                      Set the color of the pattern view in normal state-->
+<!--    app:correctStateColor="@color/primary"                   Set the color of the pattern view in correct state-->
+<!--    app:wrongStateColor="@color/pomegranate"                 Set the color of the pattern view in error state-->
+<!--    app:dotAnimationDuration="200"                           Change the duration of the animating dots-->
+<!--    app:pathEndAnimationDuration="100"                       Change the duration of the path end animaiton-->
+
+</androidx.appcompat.widget.LinearLayoutCompat>

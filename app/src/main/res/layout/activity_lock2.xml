@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:gravity="center_horizontal"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".lock2.Lock2Activity">
+
+    <com.itsxtt.patternlock.PatternLockView
+        style="@style/PatternLockView.JDStyle"
+        android:id="@+id/patternLockView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+<!--    style="@style/PatternLockView.JDStyle"-->
+<!--    style="@style/PatternLockView.WithIndicator"-->
+
+</androidx.appcompat.widget.LinearLayoutCompat>

@@ -8,6 +8,9 @@ import com.arash.altafi.sensor.fingerprint2.FingerprintActivity2
 import com.arash.altafi.sensor.fingerprint3.FingerprintActivity3
 import com.arash.altafi.sensor.fingerprint4.FingerprintActivity4
 import com.arash.altafi.sensor.flash1.FlashActivity1
+import com.arash.altafi.sensor.lock1.Lock1Activity
+import com.arash.altafi.sensor.lock2.Lock2Activity
+import com.arash.altafi.sensor.lock3.Lock3Activity
 import com.arash.altafi.sensor.vibrator.VibratorActivity
 import kotlinx.android.synthetic.main.activity_main.*
 
@@ -43,6 +46,18 @@ class MainActivity : AppCompatActivity() {
 
         btn_flash_1.setOnClickListener {
             startActivity(Intent(this , FlashActivity1::class.java))
+        }
+
+        btn_lock_1.setOnClickListener {
+            startActivity(Intent(this , Lock1Activity::class.java))
+        }
+
+        btn_lock_2.setOnClickListener {
+            startActivity(Intent(this , Lock2Activity::class.java))
+        }
+
+        btn_lock_3.setOnClickListener {
+            startActivity(Intent(this , Lock3Activity::class.java))
         }
 
     }

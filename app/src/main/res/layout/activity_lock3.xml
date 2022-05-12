@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    android:layout_gravity="center"
+    android:gravity="center"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="12dp">
+
+    <TextView
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:layout_marginBottom="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="4dp"
+        android:gravity="center"
+        android:text="The correct pattern is: 012" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/defaultBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="default"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/jdStyleBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="jd style"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/indicatorBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="with indicator"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/nineBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="9 * 9"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/secureModeBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="secure mode"/>
+
+</androidx.appcompat.widget.LinearLayoutCompat>

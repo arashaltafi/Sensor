@@ -3,7 +3,7 @@
     package="com.arash.altafi.sensor">
 
     <uses-permission android:name="android.permission.VIBRATE" />
-    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.CAMERA" />
 
     <application
         android:allowBackup="true"
@@ -12,6 +12,18 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Sensor">
+        <activity
+            android:name=".lock3.PatternLockActivity"
+            android:exported="false" />
+        <activity
+            android:name=".lock3.Lock3Activity"
+            android:exported="false" />
+        <activity
+            android:name=".lock2.Lock2Activity"
+            android:exported="false" />
+        <activity
+            android:name=".lock1.Lock1Activity"
+            android:exported="false" />
         <activity
             android:name=".flash1.FlashActivity1"
             android:exported="false" />

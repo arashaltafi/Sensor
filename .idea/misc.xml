@@ -3,6 +3,14 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Arash/Desktop/1/lock/Sensor/app/src/main/res/layout/activity_lock1.xml" value="0.25" />
+        <entry key="..\:/Users/Arash/Desktop/1/lock/Sensor/app/src/main/res/layout/activity_lock2.xml" value="0.3661899897854954" />
+        <entry key="..\:/Users/Arash/Desktop/1/lock/Sensor/app/src/main/res/layout/activity_lock3.xml" value="0.30277777777777776" />
+        <entry key="..\:/Users/Arash/Desktop/1/lock/Sensor/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/Arash/Desktop/1/lock/Sensor/app/src/main/res/layout/activity_pattern_9x9.xml" value="0.3734375" />
+        <entry key="..\:/Users/Arash/Desktop/1/lock/Sensor/app/src/main/res/layout/activity_pattern_default.xml" value="0.3723958333333333" />
+        <entry key="..\:/Users/Arash/Desktop/1/lock/Sensor/app/src/main/res/layout/activity_pattern_jd.xml" value="0.3734375" />
+        <entry key="..\:/Users/Arash/Desktop/1/lock/Sensor/app/src/main/res/layout/activity_pattern_with_indicator.xml" value="0.3723958333333333" />
         <entry key="..\:/Users/Arash/Desktop/source-android/GIT/sensor/app/src/main/res/drawable/fingerprint_selector.xml" value="0.2564814814814815" />
         <entry key="..\:/Users/Arash/Desktop/source-android/GIT/sensor/app/src/main/res/drawable/ic_checkmark.xml" value="0.2564814814814815" />
         <entry key="..\:/Users/Arash/Desktop/source-android/GIT/sensor/app/src/main/res/drawable/ic_fingerprint.xml" value="0.2564814814814815" />

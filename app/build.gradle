@@ -52,4 +52,11 @@ dependencies {
     //Fingerprint 4
     implementation 'com.github.HenriqueMachine:EasyFingerPrint:1.0.1'
 
+    //Lock1
+    implementation 'com.andrognito.patternlockview:patternlockview:1.0.0'
+    implementation 'com.andrognito.patternlockview:patternlockview-reactive:1.0.0'
+
+    //Lock2
+    implementation 'io.github.itsxtt:pattern-lock:0.2.0'
+
 }
