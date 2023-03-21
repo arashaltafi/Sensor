@@ -3,6 +3,7 @@ package com.arash.altafi.sensor
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.arash.altafi.sensor.emulator.EmulatorActivity
 import com.arash.altafi.sensor.fingerprint1.FingerprintActivity1
 import com.arash.altafi.sensor.fingerprint2.FingerprintActivity2
 import com.arash.altafi.sensor.fingerprint3.FingerprintActivity3
@@ -58,6 +59,10 @@ class MainActivity : AppCompatActivity() {
 
         btn_lock_3.setOnClickListener {
             startActivity(Intent(this , Lock3Activity::class.java))
+        }
+
+        btn_emulator_1.setOnClickListener {
+            startActivity(Intent(this , EmulatorActivity::class.java))
         }
 
     }

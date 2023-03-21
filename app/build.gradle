@@ -60,4 +60,10 @@ dependencies {
     //Lock2
     implementation 'io.github.itsxtt:pattern-lock:0.2.0'
 
+    //Emulator Detector
+    implementation "com.github.mofneko:EmulatorDetector:1.1.0"
+    implementation "io.github.happylishang:antifake:1.7.0"
+
+    //Alerter
+    implementation "com.github.tapadoo:alerter:7.2.4"
 }

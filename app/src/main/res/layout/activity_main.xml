@@ -11,72 +11,79 @@
         android:layout_height="match_parent">
 
         <androidx.appcompat.widget.LinearLayoutCompat
-            android:padding="30dp"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:orientation="vertical">
+            android:orientation="vertical"
+            android:padding="30dp">
 
-    <com.google.android.material.button.MaterialButton
-        android:id="@+id/btn_vibrator"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Vibrator" />
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_vibrator"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Vibrator" />
 
-    <com.google.android.material.button.MaterialButton
-        android:id="@+id/btn_finger_print_1"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="30dp"
-        android:text="Finger Print 1" />
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_finger_print_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:text="Finger Print 1" />
 
-    <com.google.android.material.button.MaterialButton
-        android:id="@+id/btn_finger_print_2"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:text="Finger Print 2" />
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_finger_print_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Finger Print 2" />
 
-    <com.google.android.material.button.MaterialButton
-        android:id="@+id/btn_finger_print_3"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:text="Finger Print 3" />
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_finger_print_3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Finger Print 3" />
 
-    <com.google.android.material.button.MaterialButton
-        android:id="@+id/btn_finger_print_4"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:text="Finger Print 4" />
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_finger_print_4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Finger Print 4" />
 
-    <com.google.android.material.button.MaterialButton
-        android:id="@+id/btn_flash_1"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="30dp"
-        android:text="Flash 1" />
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_flash_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:text="Flash 1" />
 
-    <com.google.android.material.button.MaterialButton
-        android:id="@+id/btn_lock_1"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="30dp"
-        android:text="Lock 1" />
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_lock_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:text="Lock 1" />
 
-    <com.google.android.material.button.MaterialButton
-        android:id="@+id/btn_lock_2"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:text="Lock 2" />
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_lock_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Lock 2" />
 
-    <com.google.android.material.button.MaterialButton
-        android:id="@+id/btn_lock_3"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:text="Lock 3" />
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_lock_3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Lock 3" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_emulator_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:text="Emulator 1" />
 
         </androidx.appcompat.widget.LinearLayoutCompat>
 
