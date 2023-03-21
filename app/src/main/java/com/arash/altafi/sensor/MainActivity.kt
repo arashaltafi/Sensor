@@ -3,6 +3,7 @@ package com.arash.altafi.sensor
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.arash.altafi.sensor.developerOption.DeveloperOptionActivity
 import com.arash.altafi.sensor.emulator.EmulatorActivity
 import com.arash.altafi.sensor.fingerprint1.FingerprintActivity1
 import com.arash.altafi.sensor.fingerprint2.FingerprintActivity2
@@ -68,6 +69,10 @@ class MainActivity : AppCompatActivity() {
 
         btn_restart_app.setOnClickListener {
             startActivity(Intent(this , RestartAppActivity::class.java))
+        }
+
+        btn_check_developer_option.setOnClickListener {
+            startActivity(Intent(this , DeveloperOptionActivity::class.java))
         }
 
     }
