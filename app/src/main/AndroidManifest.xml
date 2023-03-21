@@ -13,6 +13,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Sensor">
         <activity
+            android:name=".restartApp.RestartAppActivity"
+            android:exported="false" />
+        <activity
             android:name=".emulator.EmulatorActivity"
             android:exported="false" />
         <activity

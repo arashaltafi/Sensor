@@ -12,6 +12,7 @@ import com.arash.altafi.sensor.flash1.FlashActivity1
 import com.arash.altafi.sensor.lock1.Lock1Activity
 import com.arash.altafi.sensor.lock2.Lock2Activity
 import com.arash.altafi.sensor.lock3.Lock3Activity
+import com.arash.altafi.sensor.restartApp.RestartAppActivity
 import com.arash.altafi.sensor.vibrator.VibratorActivity
 import kotlinx.android.synthetic.main.activity_main.*
 
@@ -63,6 +64,10 @@ class MainActivity : AppCompatActivity() {
 
         btn_emulator_1.setOnClickListener {
             startActivity(Intent(this , EmulatorActivity::class.java))
+        }
+
+        btn_restart_app.setOnClickListener {
+            startActivity(Intent(this , RestartAppActivity::class.java))
         }
 
     }
