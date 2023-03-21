@@ -4,6 +4,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.arash.altafi.sensor.developerOption.DeveloperOptionActivity
+import com.arash.altafi.sensor.deviceInfo.DeviceInfoActivity
 import com.arash.altafi.sensor.emulator.EmulatorActivity
 import com.arash.altafi.sensor.fingerprint1.FingerprintActivity1
 import com.arash.altafi.sensor.fingerprint2.FingerprintActivity2
@@ -78,6 +79,10 @@ class MainActivity : AppCompatActivity() {
 
         btn_check_root.setOnClickListener {
             startActivity(Intent(this , CheckRootActivity::class.java))
+        }
+
+        btn_device_info.setOnClickListener {
+            startActivity(Intent(this , DeviceInfoActivity::class.java))
         }
 
     }

@@ -16,102 +16,69 @@
             android:orientation="vertical"
             android:padding="30dp">
 
-            <com.google.android.material.button.MaterialButton
-                android:id="@+id/btn_vibrator"
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/tvDeviceInformation"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Vibrator" />
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="device info ..." />
 
             <com.google.android.material.button.MaterialButton
-                android:id="@+id/btn_finger_print_1"
+                android:id="@+id/btnGetDeviceManufacturer"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="30dp"
-                android:text="Finger Print 1" />
+                android:text="Get Device Manufacturer" />
 
             <com.google.android.material.button.MaterialButton
-                android:id="@+id/btn_finger_print_2"
+                android:id="@+id/btnGetDeviceModel"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
-                android:text="Finger Print 2" />
+                android:text="Get Device Model" />
 
             <com.google.android.material.button.MaterialButton
-                android:id="@+id/btn_finger_print_3"
+                android:id="@+id/btnGetDeviceAndroidVersion"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
-                android:text="Finger Print 3" />
+                android:text="Get Device AndroidVersion" />
 
             <com.google.android.material.button.MaterialButton
-                android:id="@+id/btn_finger_print_4"
+                android:id="@+id/btnGetAndroidID"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
-                android:text="Finger Print 4" />
+                android:text="Get Android ID" />
 
             <com.google.android.material.button.MaterialButton
-                android:id="@+id/btn_flash_1"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="30dp"
-                android:text="Flash 1" />
-
-            <com.google.android.material.button.MaterialButton
-                android:id="@+id/btn_lock_1"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="30dp"
-                android:text="Lock 1" />
-
-            <com.google.android.material.button.MaterialButton
-                android:id="@+id/btn_lock_2"
+                android:id="@+id/btnGetGmail"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
-                android:text="Lock 2" />
+                android:text="Get Gmail" />
 
             <com.google.android.material.button.MaterialButton
-                android:id="@+id/btn_lock_3"
+                android:id="@+id/btnGetOperatorName"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
-                android:text="Lock 3" />
+                android:text="Get OperatorName" />
 
             <com.google.android.material.button.MaterialButton
-                android:id="@+id/btn_restart_app"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="30dp"
-                android:text="Restart App" />
-
-            <com.google.android.material.button.MaterialButton
-                android:id="@+id/btn_check_emulator"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="30dp"
-                android:text="Check Emulator" />
-
-            <com.google.android.material.button.MaterialButton
-                android:id="@+id/btn_check_developer_option"
+                android:id="@+id/btnGetScreenDimension"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
-                android:text="Check Developer Option" />
+                android:text="Get ScreenDimension" />
 
             <com.google.android.material.button.MaterialButton
-                android:id="@+id/btn_check_root"
+                android:id="@+id/btnGetUnique"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
-                android:text="Check Root" />
-
-            <com.google.android.material.button.MaterialButton
-                android:id="@+id/btn_device_info"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
-                android:text="Device Information" />
+                android:text="Get Unique" />
 
         </androidx.appcompat.widget.LinearLayoutCompat>
 
