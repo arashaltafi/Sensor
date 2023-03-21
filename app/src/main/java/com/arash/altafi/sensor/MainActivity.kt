@@ -14,6 +14,7 @@ import com.arash.altafi.sensor.lock1.Lock1Activity
 import com.arash.altafi.sensor.lock2.Lock2Activity
 import com.arash.altafi.sensor.lock3.Lock3Activity
 import com.arash.altafi.sensor.restartApp.RestartAppActivity
+import com.arash.altafi.sensor.root.CheckRootActivity
 import com.arash.altafi.sensor.vibrator.VibratorActivity
 import kotlinx.android.synthetic.main.activity_main.*
 
@@ -63,16 +64,20 @@ class MainActivity : AppCompatActivity() {
             startActivity(Intent(this , Lock3Activity::class.java))
         }
 
-        btn_emulator_1.setOnClickListener {
-            startActivity(Intent(this , EmulatorActivity::class.java))
-        }
-
         btn_restart_app.setOnClickListener {
             startActivity(Intent(this , RestartAppActivity::class.java))
         }
 
+        btn_check_emulator.setOnClickListener {
+            startActivity(Intent(this , EmulatorActivity::class.java))
+        }
+
         btn_check_developer_option.setOnClickListener {
             startActivity(Intent(this , DeveloperOptionActivity::class.java))
+        }
+
+        btn_check_root.setOnClickListener {
+            startActivity(Intent(this , CheckRootActivity::class.java))
         }
 
     }

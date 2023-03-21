@@ -79,13 +79,6 @@
                 android:text="Lock 3" />
 
             <com.google.android.material.button.MaterialButton
-                android:id="@+id/btn_emulator_1"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="30dp"
-                android:text="Emulator 1" />
-
-            <com.google.android.material.button.MaterialButton
                 android:id="@+id/btn_restart_app"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -93,11 +86,25 @@
                 android:text="Restart App" />
 
             <com.google.android.material.button.MaterialButton
-                android:id="@+id/btn_check_developer_option"
+                android:id="@+id/btn_check_emulator"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="30dp"
+                android:text="Check Emulator" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_check_developer_option"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
                 android:text="Check Developer Option" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_check_root"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Check Root" />
 
         </androidx.appcompat.widget.LinearLayoutCompat>
 
