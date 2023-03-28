@@ -86,6 +86,13 @@
                 android:text="Lock 3" />
 
             <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_screen_shot"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:text="Screen Shot" />
+
+            <com.google.android.material.button.MaterialButton
                 android:id="@+id/btn_restart_app"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"

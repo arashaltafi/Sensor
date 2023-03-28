@@ -17,6 +17,7 @@ import com.arash.altafi.sensor.lock2.Lock2Activity
 import com.arash.altafi.sensor.lock3.Lock3Activity
 import com.arash.altafi.sensor.restartApp.RestartAppActivity
 import com.arash.altafi.sensor.root.CheckRootActivity
+import com.arash.altafi.sensor.screenShot.ScreenShotActivity
 import com.arash.altafi.sensor.vibrator.VibratorActivity
 import kotlinx.android.synthetic.main.activity_main.*
 
@@ -31,63 +32,67 @@ class MainActivity : AppCompatActivity() {
 
     private fun init() {
         btn_vibrator.setOnClickListener {
-            startActivity(Intent(this , VibratorActivity::class.java))
+            startActivity(Intent(this, VibratorActivity::class.java))
         }
 
         btn_shake.setOnClickListener {
-            startActivity(Intent(this , SeismicActivity::class.java))
+            startActivity(Intent(this, SeismicActivity::class.java))
         }
 
         btn_finger_print_1.setOnClickListener {
-            startActivity(Intent(this , FingerprintActivity1::class.java))
+            startActivity(Intent(this, FingerprintActivity1::class.java))
         }
 
         btn_finger_print_2.setOnClickListener {
-            startActivity(Intent(this , FingerprintActivity2::class.java))
+            startActivity(Intent(this, FingerprintActivity2::class.java))
         }
 
         btn_finger_print_3.setOnClickListener {
-            startActivity(Intent(this , FingerprintActivity3::class.java))
+            startActivity(Intent(this, FingerprintActivity3::class.java))
         }
 
         btn_finger_print_4.setOnClickListener {
-            startActivity(Intent(this , FingerprintActivity4::class.java))
+            startActivity(Intent(this, FingerprintActivity4::class.java))
         }
 
         btn_flash_1.setOnClickListener {
-            startActivity(Intent(this , FlashActivity1::class.java))
+            startActivity(Intent(this, FlashActivity1::class.java))
         }
 
         btn_lock_1.setOnClickListener {
-            startActivity(Intent(this , Lock1Activity::class.java))
+            startActivity(Intent(this, Lock1Activity::class.java))
         }
 
         btn_lock_2.setOnClickListener {
-            startActivity(Intent(this , Lock2Activity::class.java))
+            startActivity(Intent(this, Lock2Activity::class.java))
         }
 
         btn_lock_3.setOnClickListener {
-            startActivity(Intent(this , Lock3Activity::class.java))
+            startActivity(Intent(this, Lock3Activity::class.java))
+        }
+
+        btn_screen_shot.setOnClickListener {
+            startActivity(Intent(this, ScreenShotActivity::class.java))
         }
 
         btn_restart_app.setOnClickListener {
-            startActivity(Intent(this , RestartAppActivity::class.java))
+            startActivity(Intent(this, RestartAppActivity::class.java))
         }
 
         btn_check_emulator.setOnClickListener {
-            startActivity(Intent(this , EmulatorActivity::class.java))
+            startActivity(Intent(this, EmulatorActivity::class.java))
         }
 
         btn_check_developer_option.setOnClickListener {
-            startActivity(Intent(this , DeveloperOptionActivity::class.java))
+            startActivity(Intent(this, DeveloperOptionActivity::class.java))
         }
 
         btn_check_root.setOnClickListener {
-            startActivity(Intent(this , CheckRootActivity::class.java))
+            startActivity(Intent(this, CheckRootActivity::class.java))
         }
 
         btn_device_info.setOnClickListener {
-            startActivity(Intent(this , DeviceInfoActivity::class.java))
+            startActivity(Intent(this, DeviceInfoActivity::class.java))
         }
 
     }
