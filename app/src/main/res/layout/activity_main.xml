@@ -23,6 +23,13 @@
                 android:text="Vibrator" />
 
             <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_shake"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:text="Shake" />
+
+            <com.google.android.material.button.MaterialButton
                 android:id="@+id/btn_finger_print_1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"

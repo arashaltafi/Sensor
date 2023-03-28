@@ -66,4 +66,8 @@ dependencies {
 
     //Alerter
     implementation "com.github.tapadoo:alerter:7.2.4"
+
+    //Shake
+    implementation 'com.squareup:seismic:1.0.3'
+
 }

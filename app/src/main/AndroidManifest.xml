@@ -3,12 +3,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="com.arash.altafi.sensor">
 
+    <uses-permission android:name="android.permission.HIGH_SAMPLING_RATE_SENSORS"
+        tools:ignore="HighSamplingRate" />
     <uses-permission
         android:name="android.permission.GET_ACCOUNTS"
         android:maxSdkVersion="22" />
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.READ_PHONE_STATE" />
-    <uses-permission android:name="android.permission.READ_PRIVILEGED_PHONE_STATE"
+    <uses-permission
+        android:name="android.permission.READ_PRIVILEGED_PHONE_STATE"
         tools:ignore="ProtectedPermissions" />
     <uses-permission android:name="android.permission.VIBRATE" />
     <uses-permission android:name="android.permission.CAMERA" />
@@ -20,6 +23,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Sensor">
+        <activity
+            android:name=".Shake.SeismicActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
         <activity
             android:name=".deviceInfo.DeviceInfoActivity"
             android:exported="false" />

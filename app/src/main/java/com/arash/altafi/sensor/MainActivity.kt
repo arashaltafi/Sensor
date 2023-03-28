@@ -3,6 +3,7 @@ package com.arash.altafi.sensor
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.arash.altafi.sensor.Shake.SeismicActivity
 import com.arash.altafi.sensor.developerOption.DeveloperOptionActivity
 import com.arash.altafi.sensor.deviceInfo.DeviceInfoActivity
 import com.arash.altafi.sensor.emulator.EmulatorActivity
@@ -31,6 +32,10 @@ class MainActivity : AppCompatActivity() {
     private fun init() {
         btn_vibrator.setOnClickListener {
             startActivity(Intent(this , VibratorActivity::class.java))
+        }
+
+        btn_shake.setOnClickListener {
+            startActivity(Intent(this , SeismicActivity::class.java))
         }
 
         btn_finger_print_1.setOnClickListener {
