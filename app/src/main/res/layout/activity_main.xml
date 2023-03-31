@@ -127,6 +127,13 @@
                 android:layout_marginTop="10dp"
                 android:text="Device Information" />
 
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_manage_wifi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:text="Manage Wifi" />
+
         </androidx.appcompat.widget.LinearLayoutCompat>
 
     </androidx.core.widget.NestedScrollView>

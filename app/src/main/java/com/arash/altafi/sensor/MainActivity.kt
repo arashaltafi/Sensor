@@ -19,6 +19,7 @@ import com.arash.altafi.sensor.restartApp.RestartAppActivity
 import com.arash.altafi.sensor.root.CheckRootActivity
 import com.arash.altafi.sensor.screenShot.ScreenShotActivity
 import com.arash.altafi.sensor.vibrator.VibratorActivity
+import com.arash.altafi.sensor.wifi.WifiActivity
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
@@ -95,6 +96,9 @@ class MainActivity : AppCompatActivity() {
             startActivity(Intent(this, DeviceInfoActivity::class.java))
         }
 
+        btn_manage_wifi.setOnClickListener {
+            startActivity(Intent(this, WifiActivity::class.java))
+        }
     }
 
 }
