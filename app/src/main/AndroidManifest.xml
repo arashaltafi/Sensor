@@ -27,7 +27,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Sensor">
         <activity
-            android:name=".wifi.WifiActivity"
+            android:name=".manageSetting.ManageSettingActivity"
             android:exported="false" />
         <activity
             android:name=".screenShot.ScreenShotActivity"

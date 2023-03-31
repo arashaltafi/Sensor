@@ -128,11 +128,11 @@
                 android:text="Device Information" />
 
             <com.google.android.material.button.MaterialButton
-                android:id="@+id/btn_manage_wifi"
+                android:id="@+id/btn_manage_setting"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="30dp"
-                android:text="Manage Wifi" />
+                android:text="Manage Setting" />
 
         </androidx.appcompat.widget.LinearLayoutCompat>
 

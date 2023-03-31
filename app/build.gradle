@@ -70,4 +70,6 @@ dependencies {
     //Shake
     implementation 'com.squareup:seismic:1.0.3'
 
+    //google play service
+    implementation "com.google.android.gms:play-services-location:19.0.1"
 }
