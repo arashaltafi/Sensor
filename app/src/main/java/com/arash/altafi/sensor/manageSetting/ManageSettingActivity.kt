@@ -1,6 +1,10 @@
 package com.arash.altafi.sensor.manageSetting
 
+import android.content.BroadcastReceiver
+import android.content.Context
 import android.content.Intent
+import android.content.IntentFilter
+import android.location.LocationManager
 import android.os.Bundle
 import android.provider.Settings
 import androidx.appcompat.app.AppCompatActivity
@@ -10,10 +14,23 @@ import kotlinx.android.synthetic.main.activity_manage_setting.*
 
 class ManageSettingActivity : AppCompatActivity() {
 
+    private val gpsSwitchStateReceiver: BroadcastReceiver = object : BroadcastReceiver() {
+        override fun onReceive(context: Context, intent: Intent) {
+            if (LocationManager.PROVIDERS_CHANGED_ACTION == intent.action) {
+                if (GpsUtils.isDisabledGps(this@ManageSettingActivity).not()) {
+                    toast("gps is on")
+                } else {
+                    toast("gps is off")
+                }
+            }
+        }
+    }
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_manage_setting)
 
+        registerReceiver()
         init()
     }
 
@@ -37,6 +54,19 @@ class ManageSettingActivity : AppCompatActivity() {
                 toast("Gps is Enable")
             }
         }
+    }
+
+    private fun unregisterReceiver() = unregisterReceiver(gpsSwitchStateReceiver)
+
+    private fun registerReceiver() {
+        val filter = IntentFilter(LocationManager.PROVIDERS_CHANGED_ACTION)
+        filter.addAction(Intent.ACTION_PROVIDER_CHANGED)
+        registerReceiver(gpsSwitchStateReceiver, filter)
+    }
+
+    override fun onDestroy() {
+        super.onDestroy()
+        unregisterReceiver()
     }
 
 }
